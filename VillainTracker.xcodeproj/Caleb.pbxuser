@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3CD6E480130B387700E6B5D6 /* VillainTracker */;
+		activeTarget = 8D1107260486CEB800E47090 /* VillainTracker */;
+		codeSenseManager = 3CD6E48D130B389500E6B5D6 /* Code sense */;
+		executables = (
+			3CD6E480130B387700E6B5D6 /* VillainTracker */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 319502455;
+			PBXWorkspaceStateSaveDate = 319502455;
+		};
+		sourceControlManager = 3CD6E48C130B389500E6B5D6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3CD6E480130B387700E6B5D6 /* VillainTracker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VillainTracker;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3CD6E48C130B389500E6B5D6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3CD6E48D130B389500E6B5D6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* VillainTracker */ = {
+		activeExec = 0;
+		executables = (
+			3CD6E480130B387700E6B5D6 /* VillainTracker */,
+		);
+	};
+}
