@@ -18,6 +18,18 @@
 #define kEvilness @"evilness"
 #define kMugshot @"mugshot"
 #define kNotes @"notes"
+@interface VillainTrackerAppDelegate (privateMethods)
+
+- (void)updateDetailViews;
+
+@end
+@implementation VillainTrackerAppDelegate (privateMethods)
+
+- (void)updateDetailsViews {
+	
+}
+
+@end
 
 @implementation VillainTrackerAppDelegate
 
