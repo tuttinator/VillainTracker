@@ -8,6 +8,17 @@
 
 #import "VillainTrackerAppDelegate.h"
 
+#define kName @"name"
+#define kLastKnownLocation @"lastKnownLocation"
+#define kLastSeenDate @"lastSeenDate"
+#define kSwornEnemy @"swornEnemy"
+#define kPrimaryMotivation @"primaryMotivation"
+#define kPowers @"powers"
+#define kPowerSource @"powerSource"
+#define kEvilness @"evilness"
+#define kMugshot @"mugshot"
+#define kNotes @"notes"
+
 @implementation VillainTrackerAppDelegate
 
 @synthesize window;
@@ -15,6 +26,19 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
+	
+	self.villain = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
+					@"Lex Luthor", kName,
+					@"Smallville", kLastKnownLocation,
+					[NSDate date], kLastSeenDate,
+					@"Superman", kSwornEnemy,
+					@"Revenge", kPrimaryMotivation,
+					[NSArray arrayWithObjects:@"Intellect", @"Leadership", nil], kPowers,
+					@"Superhero action", kPowerSource,
+					[NSNumber numberWithInt:9], kEvilness,
+					[NSImage imageNamed:@"NSUser"], kMugshot,
+					@"", kNotes,
+					nil];
 }
 
 - (IBAction)takeName:(id)sender{

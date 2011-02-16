@@ -1,12 +1,12 @@
 TVillainTracker
 v7
 r0
-t319503542.615698
+t319516800.978700
 cCheck dependencies
 cProcessInfoPlistFile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist VillainTracker-Info.plist
 cCopyStringsFile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 cCompileXIB /Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch.gch VillainTracker_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch.gch VillainTracker_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o /Users/Caleb/Documents/VillainTracker/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker normal x86_64
@@ -33,9 +33,9 @@ t1297809655
 s45
 
 N/Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib
-c000000004D5B00F7000000000002BBB8
-t1297809655
-s179128
+c000000004D5B21780000000000046966
+t1297817976
+s289126
 
 N/Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.h
 c000000004D5B04EE00000000000004CF
@@ -44,9 +44,9 @@ s1231
 i<Cocoa/Cocoa.h>
 
 N/Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m
-c000000004D5B05310000000000000327
-t1297810737
-s807
+c000000004D5B385C0000000000000652
+t1297823836
+s1618
 i"VillainTrackerAppDelegate.h"
 
 N/Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch
@@ -56,7 +56,7 @@ s159
 i<Cocoa/Cocoa.h>
 
 N/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app
-t1297810742
+t1297824000
 s102
 
 N/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist
@@ -64,8 +64,8 @@ t1297809808
 s907
 
 N/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker
-t1297810742
-s18400
+t1297824000
+s19032
 
 N/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/PkgInfo
 t1297809808
@@ -76,8 +76,8 @@ t1297809808
 s92
 
 N/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib
-t1297809808
-s34490
+t1297823147
+s63537
 
 N/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList
 c000000004D5B01900000000000000107
@@ -85,18 +85,22 @@ t1297809808
 s263
 
 N/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o
-t1297810742
-s34296
+t1297824000
+s38492
 
 N/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o
-t1297809811
-s4984
+t1297824000
+s4992
 
 N/Users/Caleb/Documents/VillainTracker/main.m
 c000000004D5B00F70000000000000104
 t1297809655
 s260
 i<Cocoa/Cocoa.h>
+
+N/var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch.gch
+t1297824000
+s54310672
 
 N/var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch.gch
 t1297809810
@@ -109,11 +113,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319503542#319503542#0(0"0(0#1#0"8624120800#0"0#
+lSLF07#2@18"Check dependencies319516795#319516795#0(0"0(0#1#0"8622438976#0"0#
 
 CCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s319503542.251806
-e319503542.580613
+s319516800.525375
+e319516800.908723
 r1
 xCompileC
 xbuild/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o
@@ -122,11 +126,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m319503542#319503542#0(0"0(0#0#65"/Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m3275089324280537600#1621"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -include /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch -c /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m -o /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o0#
+lSLF07#2@73"Compile /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m319516800#319516800#0(0"0(0#0#65"/Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m8619623968#1631"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -include /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch -c /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m -o /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o0#
 
 CCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o /Users/Caleb/Documents/VillainTracker/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s319502610.980887
-e319502611.183459
+s319516800.524585
+e319516800.770001
 r1
 xCompileC
 xbuild/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o
@@ -135,15 +139,15 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/Caleb/Documents/VillainTracker/main.m319502610#319502611#0(0"0(0#0#44"/Users/Caleb/Documents/VillainTracker/main.m8623130016#1579"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -include /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch -c /Users/Caleb/Documents/VillainTracker/main.m -o /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@52"Compile /Users/Caleb/Documents/VillainTracker/main.m319516800#319516800#0(0"0(0#0#44"/Users/Caleb/Documents/VillainTracker/main.m8608631872#1589"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -include /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch -c /Users/Caleb/Documents/VillainTracker/main.m -o /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib
-s319502608.154827
-e319502608.460609
+s319515945.647168
+e319515947.112737
 r1
 xCompileXIB
 x/Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319502608#319502608#0(0"0(0#0#64"/Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib8624033440#368"    cd /Users/Caleb/Documents/VillainTracker    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319515945#319515947#0(0"0(0#0#64"/Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib8624618464#368"    cd /Users/Caleb/Documents/VillainTracker    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
 
 CCopyStringsFile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s319502608.150830
@@ -155,14 +159,14 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings319502608#319502608#0(0"0(0#0#69"/Users/Caleb/Documents/VillainTracker/English.lproj/InfoPlist.strings8623079616#370"    cd /Users/Caleb/Documents/VillainTracker    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj0#
 
 CLd /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker normal x86_64
-s319503542.580681
-e319503542.613424
+s319516800.908800
+e319516800.976311
 r1
 xLd
 x/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker
 xnormal
 xx86_64
-lSLF07#2@103"Link /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker319503542#319503542#0(0"0(0#0#0"8618427104#572"    cd /Users/Caleb/Documents/VillainTracker    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Caleb/Documents/VillainTracker/build/Debug -F/Users/Caleb/Documents/VillainTracker/build/Debug -filelist /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker0#
+lSLF07#2@103"Link /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker319516800#319516800#0(0"0(0#0#0"8626586464#572"    cd /Users/Caleb/Documents/VillainTracker    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Caleb/Documents/VillainTracker/build/Debug -F/Users/Caleb/Documents/VillainTracker/build/Debug -filelist /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker0#
 
 CProcessInfoPlistFile /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist VillainTracker-Info.plist
 s319502608.143680
@@ -172,6 +176,19 @@ xProcessInfoPlistFile
 x/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist
 xVillainTracker-Info.plist
 lSLF07#2@33"Process VillainTracker-Info.plist319502608#319502608#0(0"0(0#0#63"/Users/Caleb/Documents/VillainTracker/VillainTracker-Info.plist27303536604479592#328"    cd /Users/Caleb/Documents/VillainTracker    builtin-infoPlistUtility VillainTracker-Info.plist -genpkginfo /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch.gch VillainTracker_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319516795.797255
+e319516800.524452
+r1
+xProcessPCH
+x/var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch.gch
+xVillainTracker_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile VillainTracker_Prefix.pch319516795#319516800#0(0"0(0#0#63"/Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch8621561408#1489"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -c /Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch -o /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch.gch VillainTracker_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s319502608.460723
@@ -187,10 +204,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile VillainTracker_Prefix.pch319502608#319502610#0(0"0(0#0#63"/Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch7021767602215152640#1479"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -c /Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch -o /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch.gch0#
 
 CTouch /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app
-s319503542.613500
-e319503542.615666
+s319516800.976385
+e319516800.978663
 r1
 xTouch
 x/Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app
-lSLF07#2@74"Touch /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app319503542#319503542#0(0"0(0#0#0"8616539392#136"    cd /Users/Caleb/Documents/VillainTracker    /usr/bin/touch -c /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app0#
+lSLF07#2@74"Touch /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app319516800#319516800#0(0"0(0#0#0"8625635968#136"    cd /Users/Caleb/Documents/VillainTracker    /usr/bin/touch -c /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app0#
 
