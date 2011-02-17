@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="372"/>
 			<integer value="29"/>
-			<integer value="371"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1550,16 +1550,15 @@
 												<object class="NSComboTableView" key="NSTableView" id="472337999">
 													<reference key="NSNextResponder"/>
 													<int key="NSvFlags">274</int>
-													<string key="NSFrameSize">{129, 63}</string>
+													<string key="NSFrameSize">{13, 63}</string>
 													<reference key="NSSuperview"/>
 													<reference key="NSWindow"/>
-													<reference key="NSNextKeyView"/>
 													<bool key="NSEnabled">YES</bool>
 													<object class="NSMutableArray" key="NSTableColumns">
 														<bool key="EncodedWithXMLCoder">YES</bool>
 														<object class="NSTableColumn">
 															<integer value="0" key="NSIdentifier"/>
-															<double key="NSWidth">126</double>
+															<double key="NSWidth">10</double>
 															<double key="NSMinWidth">10</double>
 															<double key="NSMaxWidth">1000</double>
 															<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -1606,7 +1605,7 @@
 													</object>
 													<double key="NSRowHeight">19</double>
 													<string key="NSAction">tableViewAction:</string>
-													<int key="NSTvFlags">-767524864</int>
+													<int key="NSTvFlags">-765427712</int>
 													<reference key="NSDelegate" ref="289058097"/>
 													<reference key="NSDataSource" ref="289058097"/>
 													<reference key="NSTarget" ref="289058097"/>
@@ -1673,7 +1672,6 @@
 													<string key="NSContents">Greed</string>
 													<reference key="NSSupport" ref="289774872"/>
 													<reference key="NSControlView" ref="771307620"/>
-													<int key="NSTag">1</int>
 													<int key="NSButtonFlags">1211912703</int>
 													<int key="NSButtonFlags2">0</int>
 													<object class="NSButtonImageSource" key="NSAlternateImage" id="945195287">
@@ -1690,6 +1688,7 @@
 													<string key="NSContents">Revenge</string>
 													<reference key="NSSupport" ref="289774872"/>
 													<reference key="NSControlView" ref="771307620"/>
+													<int key="NSTag">1</int>
 													<int key="NSButtonFlags">1211912703</int>
 													<int key="NSButtonFlags2">0</int>
 													<object class="NSImage" key="NSNormalImage">
@@ -1798,6 +1797,7 @@ QXBwbGUgQ29tcHV0ZXIsIEluYy4sIDIwMDUAAAAAA</bytes>
 													<string key="NSContents">Bloodlust</string>
 													<reference key="NSSupport" ref="289774872"/>
 													<reference key="NSControlView" ref="771307620"/>
+													<int key="NSTag">2</int>
 													<int key="NSButtonFlags">1211912703</int>
 													<int key="NSButtonFlags2">0</int>
 													<reference key="NSAlternateImage" ref="945195287"/>
@@ -1810,6 +1810,7 @@ QXBwbGUgQ29tcHV0ZXIsIEluYy4sIDIwMDUAAAAAA</bytes>
 													<string key="NSContents">Nihilism</string>
 													<reference key="NSSupport" ref="289774872"/>
 													<reference key="NSControlView" ref="771307620"/>
+													<int key="NSTag">3</int>
 													<int key="NSButtonFlags">1211912703</int>
 													<int key="NSButtonFlags2">0</int>
 													<reference key="NSAlternateImage" ref="945195287"/>
@@ -1822,6 +1823,7 @@ QXBwbGUgQ29tcHV0ZXIsIEluYy4sIDIwMDUAAAAAA</bytes>
 													<string key="NSContents">Insanity</string>
 													<reference key="NSSupport" ref="289774872"/>
 													<reference key="NSControlView" ref="771307620"/>
+													<int key="NSTag">4</int>
 													<int key="NSButtonFlags">1211912703</int>
 													<int key="NSButtonFlags2">0</int>
 													<reference key="NSAlternateImage" ref="945195287"/>
@@ -2205,7 +2207,8 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 												<int key="NSPeriodicDelay">200</int>
 												<int key="NSPeriodicInterval">25</int>
 											</object>
-											<reference key="NSSelectedCell" ref="853437135"/>
+											<int key="NSSelectedRow">-1</int>
+											<int key="NSSelectedCol">-1</int>
 											<reference key="NSBackgroundColor" ref="125426033"/>
 											<reference key="NSCellBackgroundColor" ref="125426033"/>
 										</object>
@@ -3284,14 +3287,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<int key="connectionID">609</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">primaryMotivationView</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="771307620"/>
-					</object>
-					<int key="connectionID">615</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">takePrimaryMotivation:</string>
 						<reference key="source" ref="976324537"/>
@@ -3346,6 +3341,22 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<reference key="destination" ref="2846070"/>
 					</object>
 					<int key="connectionID">625</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">primaryMotivationView</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="771307620"/>
+					</object>
+					<int key="connectionID">626</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">swornEnemyView</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="2846070"/>
+					</object>
+					<int key="connectionID">627</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -5252,7 +5263,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{1014, 646}, {470, 20}}</string>
+					<string>{{498, 646}, {470, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -5277,9 +5288,9 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{928, 283}, {663, 597}}</string>
+					<string>{{294, 119}, {663, 597}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{928, 283}, {663, 597}}</string>
+					<string>{{294, 119}, {663, 597}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -5517,7 +5528,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">625</int>
+			<int key="maxID">627</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
