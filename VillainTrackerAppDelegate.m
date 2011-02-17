@@ -20,14 +20,14 @@
 #define kNotes @"notes"
 @interface VillainTrackerAppDelegate (privateMethods)
 
-- (void)updateDetailViews;
+- (void)updateDetailView;
 + (NSArray *)motivations;
 + (NSArray *)powers;
 
 @end
 @implementation VillainTrackerAppDelegate (privateMethods)
 
-- (void)updateDetailViews {
+- (void)updateDetailView {
 	[nameView setStringValue:[villain objectForKey:kName]];
 	[lastKnownLocationView setStringValue:[villain objectForKey:kLastKnownLocation]];
 	[lastSeenDateView setDateValue:[villain objectForKey:kLastSeenDate]];
@@ -93,10 +93,24 @@
 					nil];
 	
 	self.villains = [NSMutableArray arrayWithObject:self.villain];
+	
+	[villains addObject:[NSMutableDictionary dictionaryWithObjectsAndKeys:
+						 @"The Joker", kName,
+						 @"Gotham City", kLastKnownLocation,
+						 [NSDate date], kLastSeenDate,
+						 @"Batman", kSwornEnemy,
+						 @"Insanity", kPrimaryMotivation,
+						 [NSArray array], kPowers,
+						 @"Superhero action", kPowerSource,
+						 [NSNumber numberWithInt:0], kEvilness,
+						 [NSImage imageNamed:@"NSUser"], kMugshot,
+						 @"", kNotes,
+						 nil]];
+	
 	[villainsTableView reloadData];
 	[villainsTableView selectRow:0 byExtendingSelection:NO];
 	
-	[self updateDetailViews];
+	[self updateDetailView];
 }
 
 // TableView method implementations
@@ -109,7 +123,15 @@
 }
 - (void)tableView:(NSTableView *)aTableView setObjectValue:(id)anObject forTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
 	[[villains objectAtIndex:rowIndex] setObject:anObject forKey:[aTableColumn identifier]];
-	[self updateDetailViews];
+	[self updateDetailView];
+}
+
+- (void)tableViewSelectionDidChange:(NSNotification *)aNotification {
+	if ([villainsTableView selectedRow] > -1) {
+		self.villain = [self.villains objectAtIndex:[villainsTableView selectedRow]];
+		[self updateDetailView];
+		NSLog(@"current villain properties: %@", villain);
+	}
 }
 
 
@@ -118,11 +140,42 @@
 // Add and delete buttons on side pane
 
 - (IBAction)newVillain:(id)sender {
-	
+	[window endEditingFor:nil];
+	[villains addObject:[NSMutableDictionary dictionaryWithObjectsAndKeys:
+						 @"", kName,
+						 @"", kLastKnownLocation,
+						 [NSDate date], kLastSeenDate,
+						 @"", kSwornEnemy,
+						 @"Greed", kPrimaryMotivation,
+						 [NSArray array], kPowers,
+						 @"", kPowerSource,
+						 [NSNumber numberWithInt:0], kEvilness,
+						 [NSImage imageNamed:@"NSUser"], kMugshot,
+						 @"", kNotes,
+						 nil]];
+	[villainsTableView reloadData];
+	[villainsTableView selectRow:[villains count]-1 byExtendingSelection:NO];
 }
 
 - (IBAction)deleteVillain:(id)sender {
+	[window endEditingFor:nil];
+	int selectedRow = [villainsTableView selectedRow];
 	
+	[villains removeObjectIdenticalTo:villain];
+	[villainsTableView reloadData];
+	
+	if (selectedRow >= [villains count]) {
+		selectedRow = [villains count]-1;
+	}
+	
+	if (selectedRow > -1) {
+		// deselect all rows to ensure that the tableview sees the
+		// selection as "changed", even though it might still have
+		// the same row index.
+		[villainsTableView deselectAll:nil];
+		[villainsTableView selectRow:selectedRow byExtendingSelection:NO];
+		[self updateDetailView];
+	}
 }
 
 // Main form elements

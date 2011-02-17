@@ -202,7 +202,7 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>3CB19CB3130CEF3F000EA8A9</string>
+				<string>3CB9FC49130D25320062BBF5</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>VillainTrackerAppDelegate.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
@@ -210,16 +210,16 @@
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>3CB19CB4130CEF3F000EA8A9</string>
+						<string>3CB9FC4A130D25320062BBF5</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>VillainTrackerAppDelegate.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3CB19CB9130CF166000EA8A9</string>
+						<string>3CB9FC62130DBF200062BBF5</string>
 						<key>history</key>
 						<array>
-							<string>3CB19CB0130CEF34000EA8A9</string>
+							<string>3CB9FC41130D218C0062BBF5</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -360,14 +360,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3CB19CB8130CF166000EA8A9</string>
+										<string>3CB9FC61130DBF200062BBF5</string>
 										<key>history</key>
 										<array>
 											<string>3CB19B61130B8B06000EA8A9</string>
 											<string>3CB19C8B130CEAAA000EA8A9</string>
 											<string>3CB19C8C130CEAAA000EA8A9</string>
 											<string>3CB19C8D130CEAAA000EA8A9</string>
-											<string>3CB19CB1130CEF3F000EA8A9</string>
+											<string>3CB9FC60130DBF200062BBF5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -379,14 +379,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {740, 307}}</string>
+								<string>{{0, 0}, {740, 299}}</string>
 								<key>RubberWindowFrame</key>
 								<string>67 104 948 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>307pt</string>
+							<string>299pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -401,14 +401,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 312}, {740, 197}}</string>
+								<string>{{0, 304}, {740, 205}}</string>
 								<key>RubberWindowFrame</key>
 								<string>67 104 948 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>197pt</string>
+							<string>205pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -427,9 +427,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3CB19BB0130C74A2000EA8A9</string>
+				<string>3CB9FC3E130D217B0062BBF5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3CB19BB1130C74A2000EA8A9</string>
+				<string>3CB9FC3F130D217B0062BBF5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -567,12 +567,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3CB19C90130CEAAA000EA8A9</string>
-		<string>3CB19C91130CEAAA000EA8A9</string>
+		<string>3CB9FC53130D25320062BBF5</string>
+		<string>3CB9FC54130D25320062BBF5</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3CD6E4DF130B700C00E6B5D6</string>
-		<string>3CB19CB3130CEF3F000EA8A9</string>
+		<string>3CB9FC49130D25320062BBF5</string>
+		<string>/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTracker.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>67 104 948 550 0 0 1280 778 </string>
@@ -654,7 +655,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3CD6E4DF130B700C00E6B5D6</string>
-				<string>3CB19BB2130C74A2000EA8A9</string>
+				<string>3CB9FC40130D217B0062BBF5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -698,8 +699,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -714,8 +715,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -748,7 +749,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>456 323 694 422 0 0 1280 778 </string>
 								</dict>
@@ -776,13 +777,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>3CB19C84130CEA27000EA8A9</string>
+				<string>3CB9FC4C130D25320062BBF5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>3CB19C85130CEA27000EA8A9</string>
-				<string>3CB19C86130CEA27000EA8A9</string>
-				<string>3CB19C87130CEA27000EA8A9</string>
-				<string>3CB19C88130CEA27000EA8A9</string>
-				<string>3CB19C89130CEA27000EA8A9</string>
+				<string>3CB9FC4D130D25320062BBF5</string>
+				<string>3CB9FC4E130D25320062BBF5</string>
+				<string>3CB9FC4F130D25320062BBF5</string>
+				<string>3CB9FC50130D25320062BBF5</string>
+				<string>3CB9FC51130D25320062BBF5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -944,7 +945,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3CB19C8A130CEA27000EA8A9</string>
+				<string>3CB9FC52130D25320062BBF5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

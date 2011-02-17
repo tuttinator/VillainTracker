@@ -1,7 +1,7 @@
 TVillainTracker
 v7
 r0
-t319613687.485235
+t319667923.562304
 cCheck dependencies
 cProcessInfoPlistFile "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist" VillainTracker-Info.plist
 cCopyStringsFile "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -33,9 +33,9 @@ t1297819227
 s45
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib
-c000000004D5CAE03000000000004CB02
-t1297919491
-s314114
+c000000004D5CEC4A000000000004CB70
+t1297935434
+s314224
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.h
 c000000004D5C9D420000000000000595
@@ -44,9 +44,9 @@ s1429
 i<Cocoa/Cocoa.h>
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m
-c000000004D5CB3570000000000001509
-t1297920855
-s5385
+c000000004D5D874B0000000000001E8A
+t1297975115
+s7818
 i"VillainTrackerAppDelegate.h"
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTracker_Prefix.pch
@@ -56,7 +56,7 @@ s159
 i<Cocoa/Cocoa.h>
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app
-t1297920887
+t1297975123
 s102
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Info.plist
@@ -64,8 +64,8 @@ t1297819227
 s907
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker
-t1297920887
-s33496
+t1297975123
+s34328
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/PkgInfo
 t1297819227
@@ -76,8 +76,8 @@ t1297819227
 s92
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib
-t1297920868
-s68765
+t1297935847
+s68818
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList
 c000000004D5B51B50000000000000125
@@ -85,8 +85,8 @@ t1297830325
 s293
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o
-t1297920886
-s60500
+t1297975122
+s68668
 
 N/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o
 t1297825603
@@ -188,11 +188,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319613665#319613665#0(0"0(0#1#0"8668448672#0"0#
+lSLF07#2@18"Check dependencies319667919#319667919#0(0"0(0#1#0"8621546464#0"0#
 
 CCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s319613668.922363
-e319613686.099401
+s319667919.397478
+e319667922.328431
 r1
 xCompileC
 xbuild/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o
@@ -202,8 +202,12 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate applicationDidFinishLaunching:]':
-o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:97: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
-lSLF07#2@88"Compile /Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319613668#319613686#0(413"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate applicationDidFinishLaunching:]':/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:97: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)1(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)319613682#157#256#0(6@80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319613655#97#0#97#0#33"'*' is deprecated (declared at *)0(0#0#80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m8604669664#1818"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap" -iquote "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap" "-F/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/include" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources" -include /var/folders/Q7/Q7wFatBMERSu5c0Cqna54k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-dbjflojrmkygznebekekuwwpouns/VillainTracker_Prefix.pch -c "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m" -o "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o"0#
+o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:111: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate newVillain:]':
+o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:157: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate deleteVillain:]':
+o/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:176: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+lSLF07#2@88"Compile /Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319667919#319667922#0(1207"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate applicationDidFinishLaunching:]':/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:111: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate newVillain:]':/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:157: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m: In function '-[VillainTrackerAppDelegate deleteVillain:]':/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m:176: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)3(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)319667920#157#257#0(6@80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319667915#111#0#111#0#33"'*' is deprecated (declared at *)0(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)319667920#552#257#0(6@80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319667915#157#0#157#0#33"'*' is deprecated (declared at *)0(22@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)319667920#950#257#0(6@80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m319667915#176#0#176#0#33"'*' is deprecated (declared at *)0(0#0#80"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m8622531392#1818"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap" -iquote "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap" "-F/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/include" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64" "-I/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources" -include /var/folders/Q7/Q7wFatBMERSu5c0Cqna54k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-dbjflojrmkygznebekekuwwpouns/VillainTracker_Prefix.pch -c "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTrackerAppDelegate.m" -o "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o"0#
 
 CCompileC build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTrackerAppDelegate.o /Users/Caleb/Documents/VillainTracker/VillainTrackerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s319516800.525375
@@ -235,12 +239,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@52"Compile /Users/Caleb/Documents/VillainTracker/main.m319516800#319516800#0(0"0(0#0#44"/Users/Caleb/Documents/VillainTracker/main.m8608631872#1589"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -include /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-bivtiowoshuhpzedvrowuecceppb/VillainTracker_Prefix.pch -c /Users/Caleb/Documents/VillainTracker/main.m -o /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib"
-s319613665.827121
-e319613668.921974
+s319628644.743423
+e319628647.960265
 r1
 xCompileXIB
 x/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319613665#319613668#0(0"0(0#0#79"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib8649468928#419"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319628644#319628647#0(0"0(0#0#79"/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib8620294624#419"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
 
 CCompileXIB /Users/Caleb/Documents/VillainTracker/English.lproj/MainMenu.xib
 s319515945.647168
@@ -263,14 +267,14 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings319502608#319502608#0(0"0(0#0#69"/Users/Caleb/Documents/VillainTracker/English.lproj/InfoPlist.strings8623079616#370"    cd /Users/Caleb/Documents/VillainTracker    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/Resources/English.lproj0#
 
 CLd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker" normal x86_64
-s319613686.099808
-e319613687.465122
+s319667922.328617
+e319667923.527092
 r1
 xLd
 x/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker
 xnormal
 xx86_64
-lSLF07#2@118"Link /Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker319613686#319613687#0(0"0(0#0#0"8612098016#657"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" "-F/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" -filelist "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker"0#
+lSLF07#2@118"Link /Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker319667922#319667923#0(0"0(0#0#0"8623907648#657"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" "-F/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug" -filelist "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/Objects-normal/x86_64/VillainTracker.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker"0#
 
 CLd /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app/Contents/MacOS/VillainTracker normal x86_64
 s319516800.908800
@@ -324,12 +328,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile VillainTracker_Prefix.pch319502608#319502610#0(0"0(0#0#63"/Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch7021767602215152640#1479"    cd /Users/Caleb/Documents/VillainTracker    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-generated-files.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-own-target-headers.hmap -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-all-target-headers.hmap -iquote /Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/VillainTracker-project-headers.hmap -F/Users/Caleb/Documents/VillainTracker/build/Debug -I/Users/Caleb/Documents/VillainTracker/build/Debug/include -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources/x86_64 -I/Users/Caleb/Documents/VillainTracker/build/VillainTracker.build/Debug/VillainTracker.build/DerivedSources -c /Users/Caleb/Documents/VillainTracker/VillainTracker_Prefix.pch -o /var/folders/wJ/wJUH2JuuH9Gmbt1nWMX6hk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VillainTracker_Prefix-feoxqbgdkbqyccgmxwxevabhodgk/VillainTracker_Prefix.pch.gch0#
 
 CTouch "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app"
-s319613687.465224
-e319613687.485172
+s319667923.527192
+e319667923.562247
 r1
 xTouch
 x/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app
-lSLF07#2@89"Touch /Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app319613687#319613687#0(0"0(0#0#0"8623799200#170"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    /usr/bin/touch -c "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app"0#
+lSLF07#2@89"Touch /Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app319667923#319667923#0(0"0(0#0#0"8624876704#170"    cd "/Users/Caleb/Documents/Cocoa Projects/VillainTracker"    /usr/bin/touch -c "/Users/Caleb/Documents/Cocoa Projects/VillainTracker/build/Debug/VillainTracker.app"0#
 
 CTouch /Users/Caleb/Documents/VillainTracker/build/Debug/VillainTracker.app
 s319516800.976385
