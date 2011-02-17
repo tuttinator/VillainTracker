@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>3CB19CB3130CEF3F000EA8A9</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>VillainTrackerAppDelegate.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>3CB19CB4130CEF3F000EA8A9</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>VillainTrackerAppDelegate.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>3CB19CB9130CF166000EA8A9</string>
+						<key>history</key>
+						<array>
+							<string>3CB19CB0130CEF34000EA8A9</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {640, 634}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>640 103 640 675 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -291,7 +332,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>121 129 948 550 0 0 1280 778 </string>
+						<string>67 104 948 550 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -307,7 +348,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>VillainTrackerAppDelegate.h</string>
+								<string>VillainTrackerAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -315,16 +356,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>VillainTrackerAppDelegate.h</string>
+										<string>VillainTrackerAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3CB19BAF130C74A2000EA8A9</string>
+										<string>3CB19CB8130CF166000EA8A9</string>
 										<key>history</key>
 										<array>
 											<string>3CB19B61130B8B06000EA8A9</string>
-											<string>3CB19BAD130C74A2000EA8A9</string>
-											<string>3CB19BAE130C74A2000EA8A9</string>
+											<string>3CB19C8B130CEAAA000EA8A9</string>
+											<string>3CB19C8C130CEAAA000EA8A9</string>
+											<string>3CB19C8D130CEAAA000EA8A9</string>
+											<string>3CB19CB1130CEF3F000EA8A9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -338,7 +381,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {740, 307}}</string>
 								<key>RubberWindowFrame</key>
-								<string>121 129 948 550 0 0 1280 778 </string>
+								<string>67 104 948 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -360,7 +403,7 @@
 								<key>Frame</key>
 								<string>{{0, 312}, {740, 197}}</string>
 								<key>RubberWindowFrame</key>
-								<string>121 129 948 550 0 0 1280 778 </string>
+								<string>67 104 948 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -524,11 +567,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>3CB19C90130CEAAA000EA8A9</string>
+		<string>3CB19C91130CEAAA000EA8A9</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3CD6E4DF130B700C00E6B5D6</string>
-		<string>/Users/Caleb/Documents/Cocoa Projects/VillainTracker/VillainTracker.xcodeproj</string>
+		<string>3CB19CB3130CEF3F000EA8A9</string>
 	</array>
 	<key>WindowString</key>
-	<string>121 129 948 550 0 0 1280 778 </string>
+	<string>67 104 948 550 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -549,7 +596,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>VillainTrackerAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -566,6 +613,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -649,8 +698,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -665,8 +714,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -699,7 +748,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>456 323 694 422 0 0 1280 778 </string>
 								</dict>
@@ -727,13 +776,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>3CB19B58130B8AF5000EA8A9</string>
+				<string>3CB19C84130CEA27000EA8A9</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>3CB19B59130B8AF5000EA8A9</string>
-				<string>3CB19B5A130B8AF5000EA8A9</string>
-				<string>3CB19B5B130B8AF5000EA8A9</string>
-				<string>3CB19B5C130B8AF5000EA8A9</string>
-				<string>3CB19B5D130B8AF5000EA8A9</string>
+				<string>3CB19C85130CEA27000EA8A9</string>
+				<string>3CB19C86130CEA27000EA8A9</string>
+				<string>3CB19C87130CEA27000EA8A9</string>
+				<string>3CB19C88130CEA27000EA8A9</string>
+				<string>3CB19C89130CEA27000EA8A9</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -860,8 +909,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -897,7 +944,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3CB19B5E130B8AF5000EA8A9</string>
+				<string>3CB19C8A130CEA27000EA8A9</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -907,7 +954,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

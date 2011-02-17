@@ -3,7 +3,7 @@
 //  VillainTracker
 //
 //  Created by Caleb Tutty on 16/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Pretty Mint Software. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -19,12 +19,16 @@
 	IBOutlet NSLevelIndicator *evilnessView;
 	IBOutlet NSImageView *mugshotView;
 	IBOutlet NSTextView *notesView;
-    NSWindow *window;
+	IBOutlet NSTableView *villainsTableView;
+	IBOutlet NSWindow *window;
+	
 	NSMutableDictionary *villain;
+	NSMutableArray *villains;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (retain) NSMutableDictionary *villain;
+@property (retain) NSMutableArray *villains;
 
 - (IBAction)takeName:(id)sender;
 - (IBAction)takeLastKnownLocation:(id)sender;
@@ -35,5 +39,7 @@
 - (IBAction)takePowers:(id)sender;
 - (IBAction)takeMugshot:(id)sender;
 - (IBAction)takeEvilness:(id)sender;
+- (IBAction)newVillain:(id)sender;
+- (IBAction)deleteVillain:(id)sender;
 
 @end

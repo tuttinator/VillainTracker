@@ -10,17 +10,24 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* VillainTrackerAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {679, 520}}";
-			sepNavSelRange = "{872, 352}";
-			sepNavVisRange = "{156, 749}";
+			sepNavIntBoundsRect = "{{0, 0}, {679, 598}}";
+			sepNavSelRange = "{136, 0}";
+			sepNavVisRange = "{0, 793}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {679, 2067}}";
-			sepNavSelRange = "{4925, 0}";
-			sepNavVisRange = "{4283, 645}";
+			sepNavIntBoundsRect = "{{0, 0}, {581, 2587}}";
+			sepNavSelRange = "{3944, 0}";
+			sepNavVisRange = "{2450, 1521}";
 			sepNavWindowFrame = "{{15, 47}, {1041, 731}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* VillainTracker_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {679, 290}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 159}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -110,10 +117,35 @@
 			3CB19BAD130C74A2000EA8A9 /* PBXTextBookmark */ = 3CB19BAD130C74A2000EA8A9 /* PBXTextBookmark */;
 			3CB19BAE130C74A2000EA8A9 /* PBXTextBookmark */ = 3CB19BAE130C74A2000EA8A9 /* PBXTextBookmark */;
 			3CB19BAF130C74A2000EA8A9 /* PBXTextBookmark */ = 3CB19BAF130C74A2000EA8A9 /* PBXTextBookmark */;
+			3CB19C82130CEA27000EA8A9 /* XCBuildMessageTextBookmark */ = 3CB19C82130CEA27000EA8A9 /* XCBuildMessageTextBookmark */;
+			3CB19C83130CEA27000EA8A9 /* PBXTextBookmark */ = 3CB19C83130CEA27000EA8A9 /* PBXTextBookmark */;
+			3CB19C8B130CEAAA000EA8A9 /* PBXTextBookmark */ = 3CB19C8B130CEAAA000EA8A9 /* PBXTextBookmark */;
+			3CB19C8C130CEAAA000EA8A9 /* PBXTextBookmark */ = 3CB19C8C130CEAAA000EA8A9 /* PBXTextBookmark */;
+			3CB19C8D130CEAAA000EA8A9 /* PBXTextBookmark */ = 3CB19C8D130CEAAA000EA8A9 /* PBXTextBookmark */;
+			3CB19C8E130CEAAA000EA8A9 /* XCBuildMessageTextBookmark */ = 3CB19C8E130CEAAA000EA8A9 /* XCBuildMessageTextBookmark */;
+			3CB19C8F130CEAAA000EA8A9 /* PBXTextBookmark */ = 3CB19C8F130CEAAA000EA8A9 /* PBXTextBookmark */;
+			3CB19C94130CEAE9000EA8A9 /* PBXTextBookmark */ = 3CB19C94130CEAE9000EA8A9 /* PBXTextBookmark */;
+			3CB19CAE130CEF2F000EA8A9 /* XCBuildMessageTextBookmark */ = 3CB19CAE130CEF2F000EA8A9 /* XCBuildMessageTextBookmark */;
+			3CB19CAF130CEF2F000EA8A9 /* PBXTextBookmark */ = 3CB19CAF130CEF2F000EA8A9 /* PBXTextBookmark */;
+			3CB19CB0130CEF34000EA8A9 /* PBXBookmark */ = 3CB19CB0130CEF34000EA8A9 /* PBXBookmark */;
+			3CB19CB1130CEF3F000EA8A9 /* XCBuildMessageTextBookmark */ = 3CB19CB1130CEF3F000EA8A9 /* XCBuildMessageTextBookmark */;
+			3CB19CB2130CEF3F000EA8A9 /* PBXTextBookmark */ = 3CB19CB2130CEF3F000EA8A9 /* PBXTextBookmark */;
+			3CB19CB5130CEF3F000EA8A9 /* PBXTextBookmark */ = 3CB19CB5130CEF3F000EA8A9 /* PBXTextBookmark */;
+			3CB19CB6130CF01A000EA8A9 /* PBXTextBookmark */ = 3CB19CB6130CF01A000EA8A9 /* PBXTextBookmark */;
+			3CB19CB7130CF01A000EA8A9 /* PBXTextBookmark */ = 3CB19CB7130CF01A000EA8A9 /* PBXTextBookmark */;
+			3CB19CB8130CF166000EA8A9 /* PBXTextBookmark */ = 3CB19CB8130CF166000EA8A9 /* PBXTextBookmark */;
+			3CB19CB9130CF166000EA8A9 /* PBXTextBookmark */ = 3CB19CB9130CF166000EA8A9 /* PBXTextBookmark */;
 			3CD6E4D8130B700C00E6B5D6 = 3CD6E4D8130B700C00E6B5D6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3CD6E48C130B389500E6B5D6 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {679, 290}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 260}";
 		};
 	};
 	3CB19B61130B8B06000EA8A9 /* PBXTextBookmark */ = {
@@ -139,7 +171,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
 		name = "VillainTrackerAppDelegate.m: 152";
 		rLen = 0;
-		rLoc = 4925;
+		rLoc = 5977;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 4283;
@@ -149,7 +181,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
 		name = "VillainTrackerAppDelegate.m: 152";
 		rLen = 0;
-		rLoc = 4925;
+		rLoc = 5977;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 4283;
@@ -159,7 +191,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* VillainTrackerAppDelegate.h */;
 		name = "VillainTrackerAppDelegate.h: 29";
 		rLen = 352;
-		rLoc = 872;
+		rLoc = 997;
 		rType = 0;
 		vrLen = 858;
 		vrLoc = 259;
@@ -169,10 +201,180 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* VillainTrackerAppDelegate.h */;
 		name = "VillainTrackerAppDelegate.h: 29";
 		rLen = 352;
-		rLoc = 872;
+		rLoc = 997;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 156;
+	};
+	3CB19C82130CEA27000EA8A9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '-updateDetailViews' not found";
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 70;
+		rType = 1;
+	};
+	3CB19C83130CEA27000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 71";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 1868;
+	};
+	3CB19C8B130CEAAA000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* VillainTracker_Prefix.pch */;
+		name = "VillainTracker_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	3CB19C8C130CEAAA000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	3CB19C8D130CEAAA000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* VillainTrackerAppDelegate.h */;
+		name = "VillainTrackerAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 0;
+	};
+	3CB19C8E130CEAAA000EA8A9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of category 'privateMethods'";
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 70;
+		rType = 1;
+	};
+	3CB19C8F130CEAAA000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 2857;
+	};
+	3CB19C94130CEAE9000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 164";
+		rLen = 0;
+		rLoc = 5617;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 666;
+	};
+	3CB19CAE130CEF2F000EA8A9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)";
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 96;
+		rType = 1;
+	};
+	3CB19CAF130CEF2F000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 3040;
+	};
+	3CB19CB0130CEF34000EA8A9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+	};
+	3CB19CB1130CEF3F000EA8A9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)";
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 96;
+		rType = 1;
+	};
+	3CB19CB2130CEF3F000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 2888;
+	};
+	3CB19CB5130CEF3F000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 2559;
+	};
+	3CB19CB6130CF01A000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 2730;
+	};
+	3CB19CB7130CF01A000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 108";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 2782;
+	};
+	3CB19CB8130CF166000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 112";
+		rLen = 0;
+		rLoc = 3944;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 2820;
+	};
+	3CB19CB9130CF166000EA8A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* VillainTrackerAppDelegate.m */;
+		name = "VillainTrackerAppDelegate.m: 112";
+		rLen = 0;
+		rLoc = 3944;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 2450;
 	};
 	3CD6E480130B387700E6B5D6 /* VillainTracker */ = {
 		isa = PBXExecutable;
@@ -223,7 +425,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* VillainTrackerAppDelegate.h */;
 		name = "VillainTrackerAppDelegate.h: 29";
 		rLen = 352;
-		rLoc = 872;
+		rLoc = 997;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 184;

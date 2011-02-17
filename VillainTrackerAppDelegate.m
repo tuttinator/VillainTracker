@@ -3,7 +3,7 @@
 //  VillainTracker
 //
 //  Created by Caleb Tutty on 16/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Pretty Mint Software. All rights reserved.
 //
 
 #import "VillainTrackerAppDelegate.h"
@@ -27,7 +27,7 @@
 @end
 @implementation VillainTrackerAppDelegate (privateMethods)
 
-- (void)updateDetailsViews {
+- (void)updateDetailViews {
 	[nameView setStringValue:[villain objectForKey:kName]];
 	[lastKnownLocationView setStringValue:[villain objectForKey:kLastKnownLocation]];
 	[lastSeenDateView setDateValue:[villain objectForKey:kLastSeenDate]];
@@ -74,6 +74,7 @@
 
 @synthesize window;
 @synthesize villain;
+@synthesize villains;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
@@ -91,12 +92,45 @@
 					@"", kNotes,
 					nil];
 	
-	[self updateDetailsViews];
+	self.villains = [NSMutableArray arrayWithObject:self.villain];
+	[villainsTableView reloadData];
+	[villainsTableView selectRow:0 byExtendingSelection:NO];
+	
+	[self updateDetailViews];
 }
+
+// TableView method implementations
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)aTableView {
+	return [villains count];
+}
+- (id)tableView:(NSTableView *)aTableView objectValueForTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
+	return [[villains objectAtIndex:rowIndex] objectForKey:[aTableColumn identifier]];
+}
+- (void)tableView:(NSTableView *)aTableView setObjectValue:(id)anObject forTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
+	[[villains objectAtIndex:rowIndex] setObject:anObject forKey:[aTableColumn identifier]];
+	[self updateDetailViews];
+}
+
+
+// IBAction methods
+
+// Add and delete buttons on side pane
+
+- (IBAction)newVillain:(id)sender {
+	
+}
+
+- (IBAction)deleteVillain:(id)sender {
+	
+}
+
+// Main form elements
 
 - (IBAction)takeName:(id)sender{
 	[villain setObject:[sender stringValue] forKey:kName];
 	NSLog(@"current villain properties %@", villain);
+	[villainsTableView reloadData];
 	
 }
 - (IBAction)takeLastKnownLocation:(id)sender{
@@ -107,6 +141,7 @@
 - (IBAction)takeLastSeenDate:(id)sender{
 	[villain setObject:[sender dateValue] forKey:kLastSeenDate];
 	NSLog(@"current villain properties %@", villain);
+	[villainsTableView reloadData];
 	
 }
 - (IBAction)takeSwornEnemy:(id)sender{
@@ -139,6 +174,7 @@
 - (IBAction)takeMugshot:(id)sender{
 	[villain setObject:[sender image] forKey:kMugshot];
 	NSLog(@"current villain properties %@", villain);
+	[villainsTableView reloadData];
 
 }
 - (IBAction)takeEvilness:(id)sender {
